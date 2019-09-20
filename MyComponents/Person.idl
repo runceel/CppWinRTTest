@@ -1,0 +1,8 @@
+namespace MyComponents
+{
+	runtimeclass Person : Windows.UI.Xaml.Data.INotifyPropertyChanged
+	{
+		Person();
+		String Name();
+	}
+}
